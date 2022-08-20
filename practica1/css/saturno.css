@@ -1,0 +1,40 @@
+body{
+
+width: 1024px;
+margin: auto;
+size: 18px;
+background: #ecf0f1; 
+font-family: tahoma;
+}
+
+p{
+ text-align: justify; 
+ line-height: 35px;
+ }
+
+ h1 {
+size: 28px;
+color: #d35400;
+ }
+
+ h2{
+    size: 22px;
+    color: #e67e22;
+ }
+
+ span{
+color: #3498db;
+text-decoration: underline;
+
+ }
+
+ nav{
+    background: #2c3e50;
+    padding: 15px;
+ }
+
+a {
+color: #f1c40f;
+margin: 75px;
+text-decoration: none;
+ }
