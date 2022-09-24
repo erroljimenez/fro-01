@@ -35,6 +35,20 @@ header #nav-desktop {
     display: none;
 }
 
+#galeria-imagenes {
+    display: flex;
+}
+
+.material-symbols-outlined {
+    color: white;
+    background-color: #5b0fa1;
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
+
 
 @media all and (min-width: 640px) {
     header #nav-mobile {
@@ -43,6 +57,9 @@ header #nav-desktop {
     header #nav-mobile .material-icons {
         min-height: 75px;
         min-width: 75px;
+    }
+    #galeria-imagenes {
+        flex-direction: column;
     }
 }
 
